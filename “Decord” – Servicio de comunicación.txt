@@ -1,0 +1,147 @@
+“Decord” – Servicio de comunicación en línea by The Fire Team 
+
+La idea de poder generar una aplicación que funcione como una plataforma de tele mensajería on-line, requiere poder ofrecerles una amplia gama de características y funcionalidades para la comunicación y colaboración en comunidades en línea. Siendo coherentes con los requisitos y especificaciones proporcionados, a continuación, presentamos un resumen de cómo funcionaría nuestra aplicación “Decord”, respondiendo ante las funcionalidades y características del proyecto propuesto: 
+
+ 
+
+Funcionamiento: 
+
+“Decord”, es una plataforma de comunicación en línea que permite a los usuarios registrarse, crear o unirse a servidores, y participar en conversaciones en tiempo real, a través de canales de chat. Asemejándonos al proyecto propuesto en mock-up en términos de funcionalidad y diseño. 
+
+ 
+
+Registro y Autenticación: 
+
+Los usuarios que se conecten a la plataforma pueden registrarse en “Decord”, proporcionando información personal, incluyendo un nombre de usuario y una contraseña. 
+
+Una vez éstos registrados, pueden iniciar sesión en sus cuentas utilizando sus credenciales propias. 
+
+ 
+
+Espacios de Comunicación - Servidores: 
+
+En “Decord”, los "servidores" son espacios virtuales, donde los usuarios pueden unirse para comunicarse y colaborar en conjunto. 
+
+Cada servidor puede considerarse como una comunidad en línea, la cual, puede tener múltiples canales de chat para diferentes temas o propósitos. 
+
+En el proyecto propuesto, los servidores se asemejan a los espacios de chat virtuales, permitiendo una grata, intuitiva y libre interacción entre usuarios. 
+
+ 
+
+Organización de Servidores y Canales: 
+
+Dentro de “Descord”, los servidores dispondrán la posibilidad de ser públicos o privados, y los usuarios pueden unirse a ellos a través de invitaciones. 
+
+Dentro de cada servidor, los usuarios pueden crear canales de chat, para organizar las conversaciones en función de temas específicos. 
+
+Los canales permiten una organización efectiva de las conversaciones, así como ayudar a los usuarios a encontrar la información que necesitan. 
+
+ 
+
+ 
+
+ 
+
+Mensajes en Tiempo Real: 
+
+“Decord”, permite a los usuarios enviar mensajes en tiempo real, a través de canales de chat. 
+
+Dichos mensajes se organizan cronológicamente, con los más recientes en la parte inferior, lo cual permite enviar mensajes de texto, imágenes y otros medios. 
+
+ 
+
+Gestión de Mensajes: 
+
+En “Decord”, los usuarios pueden editar o eliminar los mensajes que han enviado, lo que proporciona flexibilidad en las conversaciones. La eliminación de mensajes puede ser útil para corregir errores o mantener la conversación ordenada. 
+
+ 
+
+Perfil de Usuario: 
+
+Cada usuario tiene un perfil, que puede ser personalizado con una imagen y otra información personal que individualice cada cuenta a su preferencia. 
+
+En el proyecto propuesto, los usuarios también pueden actualizar sus datos personales, como ser nombre, apellido, e-mail, e inclusive, la imagen de perfil. 
+
+ 
+
+Notificaciones e Invitaciones: 
+
+“Decord”, ofrece notificaciones en tiempo real para nuevos mensajes y actividades en los servidores a los que los usuarios están suscritos, como así también, permite enviar invitaciones para unirse a servidores o canales específicos. 
+
+ 
+
+Búsqueda de Servidores: 
+
+“Decord” proporciona una función de búsqueda, la cual permite a los usuarios encontrar servidores en función de palabras clave o intereses. Así mismo, los resultados de la búsqueda no solo muestran nombres de servidores, sino también, descripciones y la cantidad de usuarios registrados. 
+
+ 
+
+Manejo de Sesiones: 
+
+“Decord” gestiona las sesiones de usuario, lo que significa que sólo los usuarios registrados pueden acceder y utilizar las funcionalidades de la plataforma. 
+
+ 
+
+Aspectos Técnicos: 
+
+“Decord” utiliza tecnologías de servidor y cliente para permitir la comunicación en tiempo real. 
+
+Al igual que en el proyecto propuesto, también se implementa manejadores de errores personalizados, para garantizar una experiencia de usuario fluida, como ser un agradable mensaje de error 404, al no encontrar el servidor iniciado. 
+
+Funcionamiento Interno: 
+
+Frontend: 
+
+ 
+
+Interfaz de Usuario (UI): El frontend, se encarga de la interfaz de usuario con la que los usuarios interactúan. Esto incluye, la presentación de la aplicación gráficamente y la recopilación de entradas del usuario. 
+
+HTML, CSS y JavaScript: Para construir la interfaz de usuario, se utiliza HTML para estructurar la página, CSS para estilizarla y JavaScript, para la interacción en tiempo real y la comunicación con el backend. 
+
+Peticiones HTTP y Websockets: El frontend realiza peticiones HTTP al, backend para autenticación, recuperación de datos y operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Además de mantener una comunicación en tiempo real para mensajes y notificaciones. 
+
+Enrutamiento: Si la aplicación tiene múltiples vistas o páginas, se implementa un enrutamiento frontend para navegar entre ellas sin recargar la página. 
+
+ 
+
+Backend: 
+
+ 
+
+Servidor Web: El backend, se encarga de recibir las solicitudes del frontend y proporcionar las respuestas correspondientes. Se utiliza un servidor web, además de las librerías de Flask (Python) para este propósito. 
+
+ 
+
+Base de Datos: Se utiliza una base de datos, en este caso, MySQL Workbench, para almacenar y recuperar datos como información de usuario, servidores, canales y mensajes. 
+
+ 
+
+API REST: Se implementa una API REST que maneja las solicitudes HTTP del frontend. La API gestiona la autenticación, la creación de servidores, canales y mensajes, y la recuperación de datos. 
+
+ 
+
+Seguridad: Se aplican prácticas de seguridad, como autenticación y autorización para garantizar que los usuarios solo accedan a los recursos y datos a los que tienen permiso. 
+
+ 
+
+Manejo de Errores: Se implementan manejadores de errores personalizados, para proporcionar respuestas adecuadas en caso de errores HTTP, como 404 (No encontrado) o 500 (Error interno del servidor). 
+
+ 
+
+Integración de Terceros: Si es necesario, se integran servicios de terceros para características adicionales, como autenticación mediante OAuth o almacenamiento de archivos. 
+
+ 
+
+Comunicación Frontend-Backend: 
+
+ 
+
+La comunicación entre el frontend y el backend, se realiza a través de peticiones HTTP para operaciones tradicionales (registro, inicio de sesión CRUD), permitiendo una comunicación en tiempo real (mensajes y notificaciones) que facilita el uso para los usuarios. 
+
+ 
+
+Conclusión: 
+
+En resumen, Decord, creada a mano de nuestro equipo de desarrollo “Fire Team”, no sólo se presenta como una plataforma de comunicación en línea, sino más bien, como un espacio virtual que fortalece la interacción de usuarios a través de servidores y canales de chat. Los usuarios desde la comodidad de sus domicilios pueden registrarse, unirse a comunidades, enviar mensajes en tiempo real y personalizar sus perfiles. El proyecto propuesto se asemeja al software Discord, en términos de funcionalidad, permitiendo la creación de servidores, canales y conversaciones en tiempo real, con un énfasis en la gestión de sesiones y la seguridad del usuario. No obstante, ésta no se lograría de no emplear la estrecha colaboración entre frontend y el backend. Donde el frontend se enfoca en la experiencia del usuario, la presentación de datos y la interacción en tiempo real, mientras que el backend, se encarga del almacenamiento de datos, la lógica de negocio y la comunicación con el frontend a través de una API. 
+
+ 
